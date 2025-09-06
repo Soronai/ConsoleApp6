@@ -11,5 +11,9 @@ namespace ConsoleApp6
         static void Main(string[] args)
         {
         }
+        int multiply(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
