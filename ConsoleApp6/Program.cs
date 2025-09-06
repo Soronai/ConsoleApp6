@@ -14,7 +14,12 @@ namespace ConsoleApp6
 
         int divide(int a, int b)
         {
-            return a / b;
+            if (b == 0)
+                return 0;
+            else
+            {
+                return a / b;
+            }
         }
 
         int multiply(int a, int b)
