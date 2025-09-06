@@ -11,5 +11,30 @@ namespace ConsoleApp6
         static void Main(string[] args)
         {
         }
+
+        int divide(int a, int b)
+        {
+            if (b == 0)
+                return 0;
+            else
+            {
+                return a / b;
+            }
+        }
+
+        int multiply(int a, int b)
+        {
+            return a * b;
+        }
+
+        int plus(int a, int b)
+        {
+            return a + b;
+        }
+
+        int minus(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
