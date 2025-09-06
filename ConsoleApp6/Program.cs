@@ -13,7 +13,7 @@ namespace ConsoleApp6
         }
         int plus(int a, int b)
         {
-            return 0;
+            return a + b;
         }
     }
 }
